@@ -1,0 +1,34 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+.vercel/
+.wrangler/
+coverage/
+*.tsbuildinfo
+
+# Local secrets and credentials
+*.env
+*.env.*
+.env*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials*
+secrets*
+
+# Local-only and editor files
+temp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
