@@ -1,6 +1,6 @@
 /** S05: open curatorial questions, not definitions of national cultures. */
 export const sharedChapter = {
-  title: { zh: '不同的路径，也在回答一些相近的问题。', en: 'Different paths can ask related questions.' },
+  title: { zh: '不同的路径，也在回答一些相近的问题。', en: 'Different paths, shared questions.' },
   intro: { zh: '把差异留在眼中，再向两处园林提出相同的问题。', en: 'Keep their differences in view. Then bring a shared question to each place.' },
   scope: { zh: '以下是对网师园与 Stourhead 的策展提问，不是两种文化的统一答案。相近的问题，并不抹去各自的历史。', en: 'These are curatorial questions about the Master-of-Nets Garden and Stourhead, not answers for two whole cultures. A shared question leaves room for different histories.' },
   questions: [
@@ -26,8 +26,8 @@ export const sharedChapter = {
       id: 'time',
       kind: 'interpretation',
       title: { zh: '观看需要多少时间？', en: 'How much time does looking require?' },
-      text: { zh: '窗前停留，沿岸行走，再回头看。对这两个案例的观看，不必停在一张全景里。位置与时间改变了眼前的关系，每个人也可以留下不同的观看节奏。', en: 'Pause at an opening, walk beside water, look back. Neither garden need be understood in a single panorama. Position and time change the relationships we notice; each visitor can bring a different pace.' },
-      question: { zh: '你愿意为一处风景，停留多久？', en: 'How long would you give a view?' },
+      text: { zh: '窗前停留，沿岸行走，再回头看。位置与时间改变了眼前的关系。面对陌生的园林，可以先描述自己看见了什么，再询问它为何如此形成；理解另一种文化，也可以从这样的次序开始。', en: 'Pause at an opening, walk beside water, look back. Position and time change what we notice. In an unfamiliar garden, first describe what you see, then ask how it came to take this form. The same care can guide an encounter with another culture.' },
+      question: { zh: '下一次面对陌生的文化，你愿意先停下来，问一个什么问题？', en: 'When you encounter an unfamiliar culture, what would you pause to ask?' },
       sourceIds: [],
       assetIds: ['CN-02', 'CN-03', 'UK-02', 'UK-03'],
     },

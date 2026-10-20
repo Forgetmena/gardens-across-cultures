@@ -22,8 +22,18 @@ const gardenEnglish = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "一园两境 — Gardens Across Cultures",
-  description: "《跨文化交际与国际智慧》课程网页作品",
+  title: "从网师园到 Stourhead：园林观看中的跨文化理解——一园两境",
+  description: "以苏州网师园与英国 Stourhead 为案例的中英双语数字展览。从窗景、园路与水面出发，观察两座园林的观看方式，探索跨文化理解。",
+  openGraph: {
+    title: "从网师园到 Stourhead：园林观看中的跨文化理解——一园两境",
+    description: "From the Master-of-Nets Garden to Stourhead: two gardens, different ways of seeing, and shared questions about nature. A bilingual exhibition exploring intercultural understanding.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "从网师园到 Stourhead：园林观看中的跨文化理解——一园两境",
+    description: "从网师园与 Stourhead 的窗景、园路与水面，探索两种观看方式与跨文化理解。",
+  },
 };
 
 export default function RootLayout({

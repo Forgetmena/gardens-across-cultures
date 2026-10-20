@@ -144,7 +144,6 @@ export function Exhibition() {
       </main>
       <footer className="g-footer">
         <a className="g-wordmark" href="#entrance" onClick={returnToEntrance}><span lang="zh-CN">一园两境</span><span className="g-footer-en" lang="en">Gardens Across Cultures</span></a>
-        <p>{language === "zh" ? "入口绘画：本项目 AI 辅助创作的艺术意象" : "Entrance artwork: an original AI-assisted artistic interpretation"}</p>
         <button className="g-still-toggle" type="button" aria-pressed={stillMode} onClick={() => setStillMode(!stillMode)}>{language === "zh" ? "静览模式" : "Still viewing"}<span aria-hidden="true"> {stillMode ? "○" : "↝"}</span></button>
         <a href="#entrance" onClick={returnToEntrance}>{language === "zh" ? "回到入口" : "Back to the entrance"} ↑</a>
       </footer>

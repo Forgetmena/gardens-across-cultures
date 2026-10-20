@@ -14,7 +14,7 @@ export interface ComparisonDimension {
 export const culturalStops = [
   {
     id: 'setting', title: { zh: '位置与尺度', en: 'Setting & scale' }, word: { zh: '境', en: 'Setting' }, kind: 'context', sourceIds: ['CS-01', 'CS-02', 'CS-03'],
-    text: { zh: '网师园的住宅、回廊与池塘相连，把层层视景组织在紧凑的城市园居之中。Stourhead 则在十八世纪庄园中围绕人工湖营造风景。场地与生活条件，为观看提供了不同的尺度。', en: 'Residence, covered walk and pool form a compact urban ensemble at the Master-of-Nets Garden. At Stourhead, an artificial lake anchors an eighteenth-century estate landscape. Different settings and ways of living give each view its measure.' },
+    text: { zh: '网师园的住宅、回廊与池塘相连，把层层视景组织在紧凑的城市园居之中。Stourhead 则在十八世纪庄园中围绕人工湖营造风景。场地与生活条件，为观看提供了不同的尺度。', en: 'At the Master-of-Nets Garden, homes, covered walks and a pool fit closely together within the city. At Stourhead, an artificial lake sits at the heart of an eighteenth-century estate garden. These settings shape the scale of each view and how people move through it.' },
   },
   {
     id: 'imagination', title: { zh: '图像与想象', en: 'Images & imagination' }, word: { zh: '意', en: 'Imagination' }, kind: 'context', sourceIds: ['CS-01', 'CS-03', 'CS-04'],
@@ -43,8 +43,8 @@ export const comparisonDimensions: readonly ComparisonDimension[] = [
     cn: { keyword: { zh: '循岸', en: 'Along the edge' }, text: { zh: '沿池的石径与回廊提示不同的停留位置。照片只呈现其中一个视点。', en: 'The stone path and covered walk suggest places to pause by the pool. This photograph records just one viewpoint.' }, point: [21, 53] },
     uk: { keyword: { zh: '循湖', en: 'Beside the lake' }, text: { zh: '前景园路沿水延伸，可联想到刚才的林下行走；两张照片并非连续游线。', en: 'The foreground path recalls the woodland walk seen earlier. These photographs are not a continuous route.' }, point: [44, 74] } },
   { id: 'human-nature', title: { zh: '人与自然', en: 'People & nature' }, question: { zh: '看似自然的地方，留下了哪些人的选择？', en: 'Where do human choices shape what seems natural?' }, evidence: 'interpretation',
-    cn: { keyword: { zh: '经营', en: 'Composing' }, text: { zh: '左侧已有的访客，为岸石与厅堂提供了身体尺度。人在路径中接近水面，观看也受到营造边界的引导。', en: 'The existing visitor gives rocks and halls a bodily scale. The path brings a person close to the water, within the boundaries of a designed space.' }, point: [83, 58] },
-    uk: { keyword: { zh: '营造', en: 'Making' }, text: { zh: '神庙的柱与入口、沿水园路，提供了身体可感知的尺度。看似自然的庄园风景，也包含建造与维护的选择。', en: 'Columns, an entrance and the waterside path suggest a bodily scale. The apparently natural estate landscape also contains choices about building and care.' }, point: [66, 58] } },
+    cn: { keyword: { zh: '经营', en: 'Composing' }, text: { zh: '画面左侧的一位游人，让池岸山石与厅堂有了可感知的人体尺度。园路让人接近水面，池岸与栏杆也引导着观看的位置。', en: 'A visitor on the left gives the waterside rocks and halls a human scale. The path brings people close to the pool, while its edges and railings guide where they can stand and look.' }, point: [83, 58] },
+    uk: { keyword: { zh: '营造', en: 'Making' }, text: { zh: '神庙的柱与入口、沿水园路，提供了身体可感知的尺度。看似自然的庄园风景，也包含建造与维护的选择。', en: 'Columns, an entrance and the waterside path give the landscape a human scale. This seemingly natural scene also reflects choices about building and care.' }, point: [66, 58] } },
   { id: 'aesthetic', title: { zh: '审美表达', en: 'Art & ideas' }, question: { zh: '风景，承载了怎样的想象？', en: 'What kinds of imagination does a landscape hold?' }, evidence: 'context',
     cn: { keyword: { zh: '诗画', en: 'Poetry & painting' }, text: { zh: '苏州园林与文学、绘画和工艺相联系。眼前格局，是进入这一传统的一个具体入口。', en: 'Suzhou gardens connect literature, painting and craft. This particular ensemble offers one way into that wider tradition.' }, point: [58, 43] },
     uk: { keyword: { zh: '古典意象', en: 'Classical imagination' }, text: { zh: '古典式神庙让人回到 Stourhead 的旅行、收藏与风景画语境。', en: 'The classical temple recalls Stourhead’s setting of travel, collecting and landscape painting.' }, point: [86, 39] } },
