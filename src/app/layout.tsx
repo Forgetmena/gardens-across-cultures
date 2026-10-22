@@ -43,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="zh-CN"
+      lang="en"
       className={`${gardenChinese.variable} ${gardenEnglish.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

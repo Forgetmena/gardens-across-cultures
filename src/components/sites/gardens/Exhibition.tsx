@@ -28,7 +28,7 @@ function Arrow({ diagonal = false }: { diagonal?: boolean }) {
 }
 
 export function Exhibition() {
-  const [language, setLanguage] = useState<ExhibitionLanguage>("zh");
+  const [language, setLanguage] = useState<ExhibitionLanguage>("en");
   const [stillMode, setStillMode] = useState(false);
   const root = useRef<HTMLDivElement>(null);
   const journey = useRef<EntranceJourney | null>(null);

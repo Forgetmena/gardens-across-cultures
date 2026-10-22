@@ -59,7 +59,7 @@ export function ClosingChapter({ language, stillMode, onLanguageChange, onStillC
       </div>
     </div>
     <div id="exhibition-sources" className="s06-source-index" data-closing-anchor>
-      <details>
+      <details open>
         <summary>{language === 'zh' ? '资料、图像与制作说明' : 'Sources, images & production notes'}<span aria-hidden="true">＋</span></summary>
         <div className="s06-source-content">
           <div><h3>{language === 'zh' ? '历史资料' : 'Historical sources'}</h3><p>{language === 'zh' ? '历史语境依据以下资料。照片观察与策展解释分别标示；两处案例不代表两国园林的全部。' : 'These sources inform the historical context. Photographic observations and curatorial interpretations are labelled separately. Neither case represents every garden in its country.'}</p><ul>{contentSourceCatalog.map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.label[language]} ↗</a></li>)}</ul></div>
